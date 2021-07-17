@@ -17,4 +17,11 @@ public class TestFizzBuzz {
         String result = fizzBuzz.getFizzBuzz(3);
         assertEquals("Fizz", result);
     }
+    
+    @Test
+    public void testBuzz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.getFizzBuzz(5);
+        assertEquals("Buzz", result);
+    }
 }
