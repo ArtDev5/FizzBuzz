@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestFizzBuzz" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-17T15:24:51" hostname="TURAN-NOT" time="0.04">
+<testsuite name="TestFizzBuzz" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-17T15:26:26" hostname="TURAN-NOT" time="0.047">
   <properties/>
   <testcase name="testBuzz()" classname="TestFizzBuzz" time="0.04"/>
+  <testcase name="testFizz()" classname="TestFizzBuzz" time="0.001"/>
+  <testcase name="testNumber4FizzBuzz()" classname="TestFizzBuzz" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
