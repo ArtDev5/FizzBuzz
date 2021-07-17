@@ -12,9 +12,23 @@ public class TestFizzBuzz {
     }
 
     @Test
+    public void testNumber86FizzBuzz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.getFizzBuzz(86);
+        assertEquals("86", result);
+    }
+
+    @Test
     public void testFizz(){
         FizzBuzz fizzBuzz = new FizzBuzz();
         String result = fizzBuzz.getFizzBuzz(3);
+        assertEquals("Fizz", result);
+    }
+
+    @Test
+    public void testFizzContaining3(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.getFizzBuzz(37);
         assertEquals("Fizz", result);
     }
 
@@ -26,10 +40,18 @@ public class TestFizzBuzz {
     }
 
     @Test
+    public void testBuzzContaining5(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.getFizzBuzz(59);
+        assertEquals("Buzz", result);
+    }
+
+    @Test
     public void testFizzBuzz(){
         FizzBuzz fizzBuzz = new FizzBuzz();
         String result = fizzBuzz.getFizzBuzz(15);
         assertEquals("FizzBuzz", result
         );
     }
+
 }
