@@ -10,4 +10,11 @@ public class TestFizzBuzz {
         String result = fizzBuzz.getFizzBuzz(4);
         assertEquals("4", result);
     }
+
+    @Test
+    public void testFizz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.getFizzBuzz(3);
+        assertEquals("Fizz", result);
+    }
 }
